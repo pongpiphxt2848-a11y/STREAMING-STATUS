@@ -55,4 +55,4 @@ client.on('ready', async () => {
     client.user.setPresence({ status: "idle" });
 });
 
-client.login('OTQ0MDk5Njc3MjQ5MzU5ODky.GvJUKb.kddY70VL6oP0XSj_Sx93TQGPnMPj5pcBmALQhA');
+client.login(process.env.TOKEN);
